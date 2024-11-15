@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      font-family: cursive;
+      background-color: powderblue;
+    }
+    .classmates h1{
+      background-color: skyblue;
+      padding: 80px, 0;
+      text-align: center;
+    }
+    .container-demo, .container-fluid-demo{
+      padding: 40px, 20px;
+    }
+    .container-demo{
+      background-color: royalblue;
+    }
+    .container-fluid-demo{
+      background-color: steelblue;
+    }
+    .col-demo{
+      background-color: steelblue;
+      color: lightblue;
+      border: 1px solid;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="classmates">
+    <h1> My Favorites </h1>
+    <p>these are very cool</p>
+  </div>
+
+<div>
+  <div class="container-demo container">
+    <h3 class="text-center mb-4">Music Artists</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="king of pop, Michael Jackson.jpg" class="img-fluid mb-2">
+        <h5>King of Pop, Michael Jackson</h5>
+        <p>Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Dubbed the "King of Pop", he is regarded as one of the most significant cultural figures of the 20th century.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Bruno Mars.jpg" class="img-fluid mb-2">
+        <h5>Bruno Mars</h5>
+        <p>Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter. He is known for his stage performances, retro showmanship, and for singing in a wide range of musical styles, including pop, R&B, funk, soul, reggae, disco, and rock.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Freddie Mercury.webp" class="img-fluid mb-2">
+        <h5>Freddie Mercury</h5>
+        <p>Freddie Mercury was a British singer and songwriter who achieved worldwide fame as the lead vocalist and pianist of the rock band Queen. Regarded as one of the greatest singers in the history of rock music, he was known for his flamboyant stage persona and four-octave vocal range.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Laufey.jpg" class="img-fluid mb-2">
+        <h5>Laufey</h5>
+        <p>Laufey Lín Bing Jónsdóttir, known mononymously as Laufey, is an Icelandic singer and musician. She achieved prominence in the early 2020s for her success as a jazz-inspired pop artist.</p>
+      </div>
+    </div>
+</div>
+<br><br>
+
+<div>
+  <div class="container-demo container">
+    <h3 class="text-center mb-4">Activities</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Scuba.jpg" class="img-fluid mb-2">
+        <h5>Scuba Diving</h5>
+        <p>I did this in Palawan, it was pretty fun.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="archer.jpeg" class="img-fluid mb-2">
+        <h5>Archery</h5>
+        <p>It's a fun sport to do</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="travelling.jpg" class="img-fluid mb-2">
+        <h5>Travelling</h5>
+        <p>Travelling is a fun thing to do, especially because you can do a lot of things while travelling</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="sleep.jpg" class="img-fluid mb-2">
+        <h5>Sleeping</h5>
+        <p>Rest, freedom.</p>
+      </div>
+    </div>
+</div>
+<br><br>
+
+<div>
+  <div class="container-demo container">
+    <h3 class="text-center mb-4">Food</h3>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="street food.jpg" class="img-fluid mb-2">
+        <h5>Street food</h5>
+        <p>Simple food from the street that is cheap and yummy.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Jollibee.jpg" class="img-fluid mb-2">
+        <h5>Jollibee</h5>
+        <p>It's a place that holds memories.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Yellow cab.jpg" class="img-fluid mb-2">
+        <h5>Yellow Cab</h5>
+        <p>Pizza is a yummy food, especially in yellow cab.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-demo">
+        <img src="Melon.jpg" class="img-fluid mb-2">
+        <h5>Melons</h5>
+        <p>Out of the other fruits, I like this one the most.</p>
+      </div>
+    </div>
+</div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
